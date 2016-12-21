@@ -478,7 +478,7 @@ footer p{
   .menu{
     margin:0 4px 0 280px;
     padding-top:5px;
-    position: relative;
+    
   }
 
   .nav2{
@@ -491,13 +491,12 @@ footer p{
     opacity: 1;
   }
   .nav2 ul{
-    position: absolute;
+    position: fixed;
     z-index: 0;
     right: 0;
     display: none;
     padding-top: 5px;
     background-color: gray;
-    float:right;
     width: 90px;
     height: 200px;
   }
